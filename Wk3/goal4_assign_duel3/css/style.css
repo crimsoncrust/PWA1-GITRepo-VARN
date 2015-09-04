@@ -1,0 +1,101 @@
+Skip to content
+Sign up Sign in This repository
+Explore
+Features
+Enterprise
+Blog
+ Watch 2  Star 0  Fork 0 joannahogan/PWA1-GITRepo-Hogan
+ branch: master  PWA1-GITRepo-Hogan/Wk3/goal4_assign_duel3/css/style.css
+joannahogan on Dec 12, 2014 100% functional
+0 contributors
+RawBlameHistory     Executable File  94 lines (81 sloc)  2.019 kb
+* {
+	margin:0; padding:0;
+}
+
+body{
+	background: url('../images/grey_wash_wall.png') repeat;
+}
+
+#myHeading{
+    font-size: 2em;
+    font-family: impact;
+    background-color: white;
+    margin-top:10px;
+}
+#round{
+    font-family: arial;
+    font-size: 1.25em;
+    background-color: white;
+}
+#scores{
+	width: 100%;
+	height: 100%;
+    background-color: white;
+    font-size: 1.5em;
+}
+
+
+
+#fight_btn{
+	position: absolute;
+	z-index: 25;
+	margin: 30% 44%;
+}
+
+#fight_bg{
+	position: fixed;
+	z-index: 10;
+	-webkit-background-size: cover; /*for webKit*/
+    -moz-background-size: cover; /*Mozilla*/
+    -o-background-size: cover; /*opera*/
+    background-size: cover; /*generic*/
+}
+
+#fight_bg img{
+	height: 100%;
+	width: 100%;
+}
+
+.heading{
+	color: white; 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 21px;
+}
+
+.buttonblue {
+	background-color:#1b7fb3;
+	-moz-border-radius:1px;
+	-webkit-border-radius:1px;
+	border-radius:1px;
+	border:1px solid #BA0419;
+	display:inline-block;
+	color:#ffffff !important;
+	font-family:'Open Sans',arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:8px 25px;
+	text-decoration:none;
+}
+
+.buttonblue:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #BA0419), color-stop(1, #F20521) );
+	background:-moz-linear-gradient( center top, #BA0419 5%, #F20521 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1b7fb3', endColorstr='#40a3d7');
+	background-color:#BA0419;
+	text-decoration:none !important;	
+}
+
+.buttonblue:active {
+	position:relative;
+	top:1px;
+}
+
+#round_number input{
+	width: 113px;
+}
+
+.clear{
+	clear: both;
+}
+
